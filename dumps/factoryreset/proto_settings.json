@@ -1,0 +1,928 @@
+// Created via `adb shell content query --uri "content://humane.system.settings.ProtoSettings"`
+{
+  "settings": [
+    {
+      "key": "humane_ai_mic_autoendpointing_level",
+      "displayName": "AI Mic Auto-Endpointing Level",
+      "type": "INTEGER",
+      "category": "Ai Mic",
+      "defaultValue": 0
+    },
+    {
+      "key": "humane_ai_mic_transcription_audio_save",
+      "displayName": "Ai Mic Audio Saved",
+      "type": "BOOLEAN",
+      "category": "Ai Mic",
+      "defaultValue": false
+    },
+    {
+      "key": "humane_ai_mic_narration_speaking_rate",
+      "displayName": "Ai Mic Narration Speaking Rate",
+      "type": "FLOAT",
+      "category": "Ai Mic",
+      "defaultValue": 1.1
+    },
+    {
+      "key": "humane_ai_mic_narration_volume_percentage",
+      "displayName": "Ai Mic Narration Volume Percentage",
+      "type": "FLOAT",
+      "category": "Ai Mic",
+      "defaultValue": 120
+    },
+    {
+      "key": "humane_ai_mic_laser_ink_interaction_level",
+      "displayName": "Ai Mic interaction level",
+      "type": "INTEGER",
+      "category": "Ai Mic",
+      "defaultValue": 0
+    },
+    {
+      "key": "humane_ai_mic_gpt4_api_key",
+      "displayName": "GPT4V OpenAI API key",
+      "type": "STRING",
+      "category": "Ai Mic",
+      "defaultValue": ""
+    },
+    {
+      "key": "humane_ai_mic_gpt4_enabled",
+      "displayName": "GPT4V enabled",
+      "type": "BOOLEAN",
+      "category": "Ai Mic",
+      "defaultValue": false
+    },
+    {
+      "key": "humane_ai_mic_separate_process",
+      "displayName": "Run Ai Mic in a separate process",
+      "type": "BOOLEAN",
+      "category": "Ai Mic",
+      "defaultValue": false
+    },
+    {
+      "key": "humane_supervisor_prompt_set_name",
+      "displayName": "Supervisor Prompt Set Name",
+      "type": "STRING",
+      "category": "Ai Mic",
+      "defaultValue": "supervisor"
+    },
+    {
+      "key": "humane_supervisor_version",
+      "displayName": "Supervisor version",
+      "type": "INTEGER",
+      "category": "Ai Mic",
+      "defaultValue": 7
+    },
+    {
+      "key": "humane_synapse_excluded_tools",
+      "displayName": "humane synapse excluded tools",
+      "type": "STRING",
+      "category": "Ai Mic",
+      "defaultValue": ""
+    },
+    {
+      "key": "humane_capture_upload_3_thumbnails",
+      "displayName": "Upload 3 Thumbnails",
+      "type": "BOOLEAN",
+      "category": "Capture",
+      "defaultValue": true
+    },
+    {
+      "key": "humane_capture_upload_initial_delay",
+      "displayName": "Upload Initial Delay",
+      "type": "INTEGER",
+      "category": "Capture",
+      "defaultValue": 2000
+    },
+    {
+      "key": "humane_capture_upload_intermediate_delay",
+      "displayName": "Upload Intermediate Delay",
+      "type": "INTEGER",
+      "category": "Capture",
+      "defaultValue": 5000
+    },
+    {
+      "key": "humane_contacts_periodic_sync",
+      "displayName": "Whether to poll periodically for contacts updates",
+      "type": "BOOLEAN",
+      "category": "Contacts",
+      "defaultValue": true
+    },
+    {
+      "key": "humane_datadog_batch_size",
+      "displayName": "Humane Datadog Batch Size",
+      "type": "STRING",
+      "category": "Datadog",
+      "defaultValue": "MEDIUM"
+    },
+    {
+      "key": "humane_datadog_logging_enabled_envs",
+      "displayName": "Humane Datadog Logging Enabled Envs",
+      "type": "STRING",
+      "category": "Datadog",
+      "defaultValue": ""
+    },
+    {
+      "key": "humane_datadog_rum_enabled_envs",
+      "displayName": "Humane Datadog Rum Enabled Envs",
+      "type": "STRING",
+      "category": "Datadog",
+      "defaultValue": ""
+    },
+    {
+      "key": "humane_datadog_tracing_enabled_envs",
+      "displayName": "Humane Datadog Tracing Enabled Envs",
+      "type": "STRING",
+      "category": "Datadog",
+      "defaultValue": ""
+    },
+    {
+      "key": "humane_datadog_upload_frequency",
+      "displayName": "Humane Datadog Upload Frequency",
+      "type": "STRING",
+      "category": "Datadog",
+      "defaultValue": "AVERAGE"
+    },
+    {
+      "key": "humane_desense_spoof_on_low_band",
+      "displayName": "Spoof Being Camped On Low Band",
+      "type": "BOOLEAN",
+      "category": "Desense",
+      "defaultValue": false
+    },
+    {
+      "key": "humane_dialer_all_incoming_before_unlock",
+      "displayName": "Allow all incoming calls before unlock",
+      "type": "BOOLEAN",
+      "category": "Dialer",
+      "defaultValue": false
+    },
+    {
+      "key": "humane_dialer_emergency_call_number_override",
+      "displayName": "Number to call when the e911 gesture is invoked",
+      "type": "STRING",
+      "category": "Dialer",
+      "defaultValue": ""
+    },
+    {
+      "key": "humane_uigallery_card_picker_planes",
+      "displayName": "Card picker planes",
+      "type": "INTEGER",
+      "category": "Experience: UI Gallery",
+      "defaultValue": 12
+    },
+    {
+      "key": "humane_uigallery_default_section",
+      "displayName": "Default section",
+      "type": "STRING",
+      "category": "Experience: UI Gallery",
+      "defaultValue": "photon"
+    },
+    {
+      "key": "humane_uigallery_list_show_header",
+      "displayName": "List Test: Show header",
+      "type": "BOOLEAN",
+      "category": "Experience: UI Gallery",
+      "defaultValue": true
+    },
+    {
+      "key": "humane_uigallery_list_subtitles",
+      "displayName": "List Test: Show subtitles",
+      "type": "BOOLEAN",
+      "category": "Experience: UI Gallery",
+      "defaultValue": false
+    },
+    {
+      "key": "humane_uigallery_show_in_launcher",
+      "displayName": "Show UI Gallery in launcher",
+      "type": "BOOLEAN",
+      "category": "Experience: UI Gallery",
+      "defaultValue": false
+    },
+    {
+      "key": "humane_uigallery_layout_type_demo",
+      "displayName": "UI layout type",
+      "type": "INTEGER",
+      "category": "Experience: UI Gallery",
+      "defaultValue": 1
+    },
+    {
+      "key": "humane_health_tracker_enabled",
+      "displayName": "Enable Health Tracking",
+      "type": "BOOLEAN",
+      "category": "FeatureFlag",
+      "defaultValue": false
+    },
+    {
+      "key": "humane_clock_enabled",
+      "displayName": "Enable clock apk related actions like timer/clock/alarm",
+      "type": "BOOLEAN",
+      "category": "FeatureFlag",
+      "defaultValue": false
+    },
+    {
+      "key": "humane_food_enabled",
+      "displayName": "Enable food and nutrition features",
+      "type": "BOOLEAN",
+      "category": "FeatureFlag",
+      "defaultValue": false
+    },
+    {
+      "key": "humane_photo_sharing_enabled",
+      "displayName": "Enable sharing a memory link via SMS",
+      "type": "BOOLEAN",
+      "category": "FeatureFlag",
+      "defaultValue": false
+    },
+    {
+      "key": "humane_photography_jpg_enabled",
+      "displayName": "Saves image bytes as a jpg",
+      "type": "BOOLEAN",
+      "category": "FeatureFlag",
+      "defaultValue": true
+    },
+    {
+      "key": "dynamic_low_power_handtracking",
+      "displayName": "dynamic low power handtracking",
+      "type": "BOOLEAN",
+      "category": "HandTracking",
+      "defaultValue": false
+    },
+    {
+      "key": "humane_home_shows_weather",
+      "displayName": "Home view shows the weather",
+      "type": "BOOLEAN",
+      "category": "Home",
+      "defaultValue": true
+    },
+    {
+      "key": "humane_location_spoofing",
+      "displayName": "Spoof Location",
+      "type": "BOOLEAN",
+      "category": "Location",
+      "defaultValue": false
+    },
+    {
+      "key": "humane_location_spoofed_accuracy",
+      "displayName": "Spoofed Accuracy",
+      "type": "FLOAT",
+      "category": "Location",
+      "defaultValue": 10
+    },
+    {
+      "key": "humane_location_spoofed_latitude",
+      "displayName": "Spoofed Latitude",
+      "type": "FLOAT",
+      "category": "Location",
+      "defaultValue": 37.779015
+    },
+    {
+      "key": "humane_location_spoofed_longitude",
+      "displayName": "Spoofed Longitude",
+      "type": "FLOAT",
+      "category": "Location",
+      "defaultValue": -122.40502
+    },
+    {
+      "key": "humane_messages_auto_send_delay",
+      "displayName": "Messages auto send delay (ms)",
+      "type": "INTEGER",
+      "category": "Messages",
+      "defaultValue": 8000
+    },
+    {
+      "key": "humane_music_clean_up_timeout",
+      "displayName": "Cleanup music timeout (ms)",
+      "type": "INTEGER",
+      "category": "Music",
+      "defaultValue": 1800000
+    },
+    {
+      "key": "humane_back_to_home_view_timeout",
+      "displayName": "Back to home view timeout (ms)",
+      "type": "INTEGER",
+      "category": "Navigation",
+      "defaultValue": 480000
+    },
+    {
+      "key": "humane_nearby_faked_latitude",
+      "displayName": "Nearby faked latitude",
+      "type": "FLOAT",
+      "category": "Nearby",
+      "defaultValue": 37.779015
+    },
+    {
+      "key": "humane_nearby_faked_longitude",
+      "displayName": "Nearby faked longitude",
+      "type": "FLOAT",
+      "category": "Nearby",
+      "defaultValue": -122.40502
+    },
+    {
+      "key": "humane_nearby_force_fake_location",
+      "displayName": "Nearby force fake location",
+      "type": "BOOLEAN",
+      "category": "Nearby",
+      "defaultValue": false
+    },
+    {
+      "key": "humane_nearby_force_sf_location",
+      "displayName": "Nearby force say San Francisco",
+      "type": "BOOLEAN",
+      "category": "Nearby",
+      "defaultValue": false
+    },
+    {
+      "key": "humane_cmu_ultra_enabled",
+      "displayName": "Enable Catch Me Up Ultra",
+      "type": "BOOLEAN",
+      "category": "Notifications",
+      "defaultValue": false
+    },
+    {
+      "key": "humane_esim_regex",
+      "displayName": "Pattern detected by e-sim QR scanner",
+      "type": "STRING",
+      "category": "Notifications",
+      "defaultValue": "LPA:1\\$([A-Za-z0-9\\- %\\*\\+\\./:]+\\.)+[A-Za-z0-9\\- %\\*\\+\\./:]+\\.[A-Za-z0-9\\- %\\*\\+\\./:]+\\$[0-9A-Z-]*(\\$(([0-9]*\\.)*[0-9]+)*(\\$1)?)?"
+    },
+    {
+      "key": "humane_allow_oobe_after_provisioned",
+      "displayName": "Allow onboarding after provisioned",
+      "type": "BOOLEAN",
+      "category": "Out of Box Experience",
+      "defaultValue": false
+    },
+    {
+      "key": "humane_configure_wifi_in_oobe",
+      "displayName": "Configure Wi-Fi on onboarding",
+      "type": "BOOLEAN",
+      "category": "Out of Box Experience",
+      "defaultValue": true
+    },
+    {
+      "key": "humane_enable_touchpad_when_unprovisioned",
+      "displayName": "Enabled Touchpad when Unprovisioned",
+      "type": "BOOLEAN",
+      "category": "Out of Box Experience",
+      "defaultValue": false
+    },
+    {
+      "key": "humane_lucy_card_detector_on",
+      "displayName": "Lucy card detection",
+      "type": "BOOLEAN",
+      "category": "Out of Box Experience",
+      "defaultValue": true
+    },
+    {
+      "key": "humane_lucy_card_detector_save_images",
+      "displayName": "Lucy detector save images",
+      "type": "BOOLEAN",
+      "category": "Out of Box Experience",
+      "defaultValue": false
+    },
+    {
+      "key": "humane_push_keepalive_count",
+      "displayName": "The TCP Keepalive Count value for Push",
+      "type": "INTEGER",
+      "category": "Push",
+      "defaultValue": 4
+    },
+    {
+      "key": "humane_push_keepalive_intvl",
+      "displayName": "The TCP Keepalive Interval value for Push, in seconds",
+      "type": "INTEGER",
+      "category": "Push",
+      "defaultValue": 30
+    },
+    {
+      "key": "humane_push_keepalive_time",
+      "displayName": "The TCP Keepalive Time value for Push, in seconds",
+      "type": "INTEGER",
+      "category": "Push",
+      "defaultValue": 120
+    },
+    {
+      "key": "humane_pull_push_messages_interval",
+      "displayName": "The minimum interval between Push polls, in minutes",
+      "type": "INTEGER",
+      "category": "Push",
+      "defaultValue": 15
+    },
+    {
+      "key": "humane_pull_push_messages",
+      "displayName": "Whether to enable pulling push messages",
+      "type": "BOOLEAN",
+      "category": "Push",
+      "defaultValue": false
+    },
+    {
+      "key": "humane_push_messages",
+      "displayName": "Whether to enable push messages",
+      "type": "BOOLEAN",
+      "category": "Push",
+      "defaultValue": false
+    },
+    {
+      "key": "humane_push_cell",
+      "displayName": "Whether to enable the cell channel for push. humane_push_messages must also be set to true.",
+      "type": "BOOLEAN",
+      "category": "Push",
+      "defaultValue": false
+    },
+    {
+      "key": "humane_push_wifi",
+      "displayName": "Whether to enable the wifi channel for push. humane_push_messages must also be set to true.",
+      "type": "BOOLEAN",
+      "category": "Push",
+      "defaultValue": false
+    },
+    {
+      "key": "humane_systemsound_preload_all",
+      "displayName": "Always preload all system sounds",
+      "type": "BOOLEAN",
+      "category": "Sounds",
+      "defaultValue": false
+    },
+    {
+      "key": "humane_touchcode_setup_min_narration_volume_percentage",
+      "displayName": "Touchcode Setup Narration Minimum Volume Percentage",
+      "type": "FLOAT",
+      "category": "Touchcode",
+      "defaultValue": 0.8
+    },
+    {
+      "key": "humane_touchcode_setup_min_sounds_volume_percentage",
+      "displayName": "Touchcode Setup Sounds Minimum Volume Percentage",
+      "type": "FLOAT",
+      "category": "Touchcode",
+      "defaultValue": 0.5
+    },
+    {
+      "key": "humane_touchpad_ignore_one_finger_decuple_tap",
+      "displayName": "Ignore one finger decuple gesture",
+      "type": "BOOLEAN",
+      "category": "Touchpad",
+      "defaultValue": false
+    },
+    {
+      "key": "humane_touchpad_ignore_one_finger_double_tap",
+      "displayName": "Ignore one finger double tap",
+      "type": "BOOLEAN",
+      "category": "Touchpad",
+      "defaultValue": false
+    },
+    {
+      "key": "humane_touchpad_ignore_one_finger_drag",
+      "displayName": "Ignore one finger drag",
+      "type": "BOOLEAN",
+      "category": "Touchpad",
+      "defaultValue": false
+    },
+    {
+      "key": "humane_touchpad_ignore_one_finger_hold",
+      "displayName": "Ignore one finger hold",
+      "type": "BOOLEAN",
+      "category": "Touchpad",
+      "defaultValue": false
+    },
+    {
+      "key": "humane_touchpad_ignore_one_finger_long_hold",
+      "displayName": "Ignore one finger long hold",
+      "type": "BOOLEAN",
+      "category": "Touchpad",
+      "defaultValue": false
+    },
+    {
+      "key": "humane_touchpad_ignore_one_finger_swipe",
+      "displayName": "Ignore one finger swipe",
+      "type": "BOOLEAN",
+      "category": "Touchpad",
+      "defaultValue": false
+    },
+    {
+      "key": "humane_touchpad_ignore_one_finger_triple_tap",
+      "displayName": "Ignore one finger triple tap",
+      "type": "BOOLEAN",
+      "category": "Touchpad",
+      "defaultValue": false
+    },
+    {
+      "key": "humane_touchpad_ignore_ring",
+      "displayName": "Ignore ring gesture",
+      "type": "BOOLEAN",
+      "category": "Touchpad",
+      "defaultValue": false
+    },
+    {
+      "key": "humane_touchpad_ignore_actions",
+      "displayName": "Ignore touchpad actions",
+      "type": "BOOLEAN",
+      "category": "Touchpad",
+      "defaultValue": false
+    },
+    {
+      "key": "humane_touchpad_ignore_two_finger_double_tap",
+      "displayName": "Ignore two finger double tap",
+      "type": "BOOLEAN",
+      "category": "Touchpad",
+      "defaultValue": false
+    },
+    {
+      "key": "humane_touchpad_ignore_two_finger_hold",
+      "displayName": "Ignore two finger hold",
+      "type": "BOOLEAN",
+      "category": "Touchpad",
+      "defaultValue": false
+    },
+    {
+      "key": "humane_touchpad_ignore_two_finger_tap_then_hold",
+      "displayName": "Ignore two finger tap then hold",
+      "type": "BOOLEAN",
+      "category": "Touchpad",
+      "defaultValue": false
+    },
+    {
+      "key": "humane_touchpad_hold_delay_ms",
+      "displayName": "Touchpad hold gestures delay (ms)",
+      "type": "INTEGER",
+      "category": "Touchpad",
+      "defaultValue": 260
+    },
+    {
+      "key": "humane_touchpad_tap_lift_timeout_ms",
+      "displayName": "Touchpad tap gesture lift timeout (ms)",
+      "type": "INTEGER",
+      "category": "Touchpad",
+      "defaultValue": 260
+    },
+    {
+      "key": "humane_button_focus_closest",
+      "displayName": "Always focus closest button",
+      "type": "BOOLEAN",
+      "category": "UI - Buttons",
+      "defaultValue": true
+    },
+    {
+      "key": "humane_button_act_on_down",
+      "displayName": "Button action on touch-down",
+      "type": "BOOLEAN",
+      "category": "UI - Buttons",
+      "defaultValue": true
+    },
+    {
+      "key": "humane_button_focus_animation_damping",
+      "displayName": "Button focus animation damping",
+      "type": "FLOAT",
+      "category": "UI - Buttons",
+      "defaultValue": 0.65
+    },
+    {
+      "key": "humane_button_focus_animation_strength",
+      "displayName": "Button focus animation strength",
+      "type": "FLOAT",
+      "category": "UI - Buttons",
+      "defaultValue": 300
+    },
+    {
+      "key": "humane_button_focus_lookback_time_ms",
+      "displayName": "Button focus lookback time (ms)",
+      "type": "INTEGER",
+      "category": "UI - Buttons",
+      "defaultValue": 200
+    },
+    {
+      "key": "humane_button_hover_focus_enabled",
+      "displayName": "Button hover focus enabled",
+      "type": "BOOLEAN",
+      "category": "UI - Buttons",
+      "defaultValue": true
+    },
+    {
+      "key": "humane_button_hover_focused_outset",
+      "displayName": "Button hover lock size",
+      "type": "FLOAT",
+      "category": "UI - Buttons",
+      "defaultValue": 50
+    },
+    {
+      "key": "humane_button_content_parallax_lag_factor",
+      "displayName": "Hover focus parallax lag",
+      "type": "FLOAT",
+      "category": "UI - Buttons",
+      "defaultValue": 0.85
+    },
+    {
+      "key": "humane_sound_on_button_action",
+      "displayName": "Play sound on button click",
+      "type": "BOOLEAN",
+      "category": "UI - Buttons",
+      "defaultValue": true
+    },
+    {
+      "key": "humane_sound_on_button_focus",
+      "displayName": "Play sound on button focus",
+      "type": "BOOLEAN",
+      "category": "UI - Buttons",
+      "defaultValue": true
+    },
+    {
+      "key": "humane_animations_slowdown_factor",
+      "displayName": "Animations slowdown factor",
+      "type": "FLOAT",
+      "category": "UI - Debug",
+      "defaultValue": 1
+    },
+    {
+      "key": "humane_display_digits_in_pincode",
+      "displayName": "Display digits in pincode",
+      "type": "BOOLEAN",
+      "category": "UI - Debug",
+      "defaultValue": false
+    },
+    {
+      "key": "humane_flash_screen_on_touch_down",
+      "displayName": "Flash screen on touch down",
+      "type": "BOOLEAN",
+      "category": "UI - Debug",
+      "defaultValue": false
+    },
+    {
+      "key": "humane_show_view_outlines",
+      "displayName": "Show View Outlines",
+      "type": "BOOLEAN",
+      "category": "UI - Debug",
+      "defaultValue": false
+    },
+    {
+      "key": "humane_show_view_outlines_regex",
+      "displayName": "Show View Outlines by Name RegEx",
+      "type": "STRING",
+      "category": "UI - Debug"
+    },
+    {
+      "key": "humane_show_view_overlays_tree_depth",
+      "displayName": "Show View Overlays Tree Depth",
+      "type": "INTEGER",
+      "category": "UI - Debug",
+      "defaultValue": 0
+    },
+    {
+      "key": "humane_show_touches",
+      "displayName": "Show cursor and touches",
+      "type": "BOOLEAN",
+      "category": "UI - Debug",
+      "defaultValue": false
+    },
+    {
+      "key": "humane_show_experience_bounds",
+      "displayName": "Show experience bounds",
+      "type": "BOOLEAN",
+      "category": "UI - Debug",
+      "defaultValue": false
+    },
+    {
+      "key": "humane_show_large_cursor",
+      "displayName": "Show large cursor",
+      "type": "BOOLEAN",
+      "category": "UI - Debug",
+      "defaultValue": false
+    },
+    {
+      "key": "humane_show_touch_proximity",
+      "displayName": "Show touch proximity",
+      "type": "BOOLEAN",
+      "category": "UI - Debug",
+      "defaultValue": false
+    },
+    {
+      "key": "humane_show_touch_target_areas",
+      "displayName": "Show touch target areas",
+      "type": "BOOLEAN",
+      "category": "UI - Debug",
+      "defaultValue": false
+    },
+    {
+      "key": "humane_laser_guidance_sounds_enabled",
+      "displayName": "Laser guidance sounds enabled",
+      "type": "BOOLEAN",
+      "category": "UI - Display",
+      "defaultValue": true
+    },
+    {
+      "key": "humane_ui_render_frame_rate",
+      "displayName": "UI rendering frame rate fps",
+      "type": "FLOAT",
+      "category": "UI - Display",
+      "defaultValue": 30
+    },
+    {
+      "key": "humane_ui_render_high_frame_rate_some_animations",
+      "displayName": "UI rendering high frame rate some animations",
+      "type": "BOOLEAN",
+      "category": "UI - Display",
+      "defaultValue": true
+    },
+    {
+      "key": "humane_use_new_display_sounds",
+      "displayName": "Use new display on/off sounds",
+      "type": "BOOLEAN",
+      "category": "UI - Display",
+      "defaultValue": false
+    },
+    {
+      "key": "humane_list_view_autoscroll_zone",
+      "displayName": "List View autoscroll zone",
+      "type": "INTEGER",
+      "category": "UI - ListViews",
+      "defaultValue": 30
+    },
+    {
+      "key": "humane_list_view_scroll_snap_to_center",
+      "displayName": "Scroll snap to center",
+      "type": "BOOLEAN",
+      "category": "UI - ListViews",
+      "defaultValue": true
+    },
+    {
+      "key": "humane_faked_hover_distance_mm",
+      "displayName": "Distance for faked hover (mm)",
+      "type": "FLOAT",
+      "category": "UI - Touch",
+      "defaultValue": 20
+    },
+    {
+      "key": "humane_fake_display_distance_use_y",
+      "displayName": "Fake display distance: cursor Y",
+      "type": "BOOLEAN",
+      "category": "UI - Touch",
+      "defaultValue": false
+    },
+    {
+      "key": "humane_fake_display_distance_use_fixed",
+      "displayName": "Fake display distance: fixed",
+      "type": "BOOLEAN",
+      "category": "UI - Touch",
+      "defaultValue": false
+    },
+    {
+      "key": "humane_fake_display_distance_value",
+      "displayName": "Fake display distance: fixed value",
+      "type": "FLOAT",
+      "category": "UI - Touch",
+      "defaultValue": 0.3
+    },
+    {
+      "key": "humane_log_numpad_layout",
+      "displayName": "Log layout info in numeric pad",
+      "type": "BOOLEAN",
+      "category": "UI - Touch",
+      "defaultValue": false
+    },
+    {
+      "key": "humane_log_touch_events",
+      "displayName": "Log touch events",
+      "type": "BOOLEAN",
+      "category": "UI - Touch",
+      "defaultValue": false
+    },
+    {
+      "key": "humane_touch_offset_x",
+      "displayName": "Touch offset X",
+      "type": "FLOAT",
+      "category": "UI - Touch",
+      "defaultValue": -1
+    },
+    {
+      "key": "humane_touch_offset_y",
+      "displayName": "Touch offset Y",
+      "type": "FLOAT",
+      "category": "UI - Touch",
+      "defaultValue": -5
+    },
+    {
+      "key": "humane_card_picker_lock_factor",
+      "displayName": "Click lock factor",
+      "type": "FLOAT",
+      "category": "UI - Z Depth",
+      "defaultValue": 3
+    },
+    {
+      "key": "humane_card_picker_arrows_style",
+      "displayName": "Directional arrows style",
+      "type": "INTEGER",
+      "category": "UI - Z Depth",
+      "defaultValue": 0
+    },
+    {
+      "key": "humane_card_picker_max_depth",
+      "displayName": "Max depth",
+      "type": "FLOAT",
+      "category": "UI - Z Depth",
+      "defaultValue": 0.35
+    },
+    {
+      "key": "humane_card_picker_min_depth",
+      "displayName": "Min depth",
+      "type": "FLOAT",
+      "category": "UI - Z Depth",
+      "defaultValue": 0.2
+    },
+    {
+      "key": "humane_push_gesture_velocity",
+      "displayName": "Push gesture velocity mm/s",
+      "type": "FLOAT",
+      "category": "UI - Z Depth",
+      "defaultValue": 13
+    },
+    {
+      "key": "humane_vision_always_capture",
+      "displayName": "Always Capture",
+      "type": "BOOLEAN",
+      "category": "Vision",
+      "defaultValue": false
+    },
+    {
+      "key": "humane_vision_capture_frame_idx",
+      "displayName": "Capture Frame (#)",
+      "type": "INTEGER",
+      "category": "Vision",
+      "defaultValue": 10
+    },
+    {
+      "key": "humane_vision_crop_bottom",
+      "displayName": "Crop Bottom (px)",
+      "type": "INTEGER",
+      "category": "Vision",
+      "defaultValue": 0
+    },
+    {
+      "key": "humane_vision_crop_left",
+      "displayName": "Crop Left (px)",
+      "type": "INTEGER",
+      "category": "Vision",
+      "defaultValue": 300
+    },
+    {
+      "key": "humane_vision_crop_sides",
+      "displayName": "Crop Sides (px)",
+      "type": "INTEGER",
+      "category": "Vision",
+      "defaultValue": 300
+    },
+    {
+      "key": "humane_vision_crop_top",
+      "displayName": "Crop Top (px)",
+      "type": "INTEGER",
+      "category": "Vision",
+      "defaultValue": 0
+    },
+    {
+      "key": "humane_vision_jpeg_quality",
+      "displayName": "JPEG Quality",
+      "type": "INTEGER",
+      "category": "Vision",
+      "defaultValue": 85
+    },
+    {
+      "key": "humane_vision_output_height",
+      "displayName": "Output Height",
+      "type": "INTEGER",
+      "category": "Vision",
+      "defaultValue": 1080
+    },
+    {
+      "key": "humane_vision_output_width",
+      "displayName": "Output Width",
+      "type": "INTEGER",
+      "category": "Vision",
+      "defaultValue": 1320
+    },
+    {
+      "key": "humane_vision_save_debug_captures",
+      "displayName": "Save Debug Captures",
+      "type": "BOOLEAN",
+      "category": "Vision",
+      "defaultValue": false
+    },
+    {
+      "key": "humane_vision_use_saved_image",
+      "displayName": "Use Fixed Image",
+      "type": "STRING",
+      "category": "Vision",
+      "defaultValue": ""
+    },
+    {
+      "key": "humane_vision_enable_gpt4v",
+      "displayName": "Use GPT4-Vision",
+      "type": "BOOLEAN",
+      "category": "Vision",
+      "defaultValue": false
+    },
+    {
+      "key": "humane_vision_only_with_gesture",
+      "displayName": "Vision with Gesture only",
+      "type": "BOOLEAN",
+      "category": "Vision",
+      "defaultValue": false
+    }
+  ]
+}
