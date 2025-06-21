@@ -1,5 +1,8 @@
 # Onboarding
 
+> [!NOTE]
+> This is likely invalid with the introduction of [CVE-2024-31317](https://github.com/agg23/cve-2024-31317/). However, it makes more sense to use these tools rather than try to fix Humane's existing apps.
+
 After thorough investigation [@agg23](https://github.com/agg23) determined that it is unlikely to be able to get a factory reset device into a "near-provisioned" state due to the thoroughness of the code.
 
 ## Investigations
