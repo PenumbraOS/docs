@@ -54,3 +54,7 @@ So you can't connect or register to most Binder services. However, there are som
 Luckily, both `nfc` and `radio` are defined as "app contexts", and thus are accessible via [CVE-2024-31317](https://github.com/agg23/cve-2024-31317/). This is the communication method utilized by [the PenumbraOS SDK](https://github.com/penumbraOS/sdk).
 
 This also prevents app to app communication (so no `untrusted_app` to `system_app`).
+
+## Services
+
+- Services cannot be started directly using `startService` from `untrusted_app`. It appears implicit starts using `bindService` work, but if you want the service to stay persistent using `startService`, it always throws an error that the app is in the background, even when it clearly is not.
